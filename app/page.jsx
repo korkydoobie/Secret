@@ -34,7 +34,7 @@ export default function Home() {
   const [saveError, setSaveError] = useState("");
   const [dodges, setDodges] = useState(0);
   const [noPosition, setNoPosition] = useState(null);
-  const [musicOn, setMusicOn] = useState(false);
+  const [musicOn, setMusicOn] = useState(true);
   const audioRef = useRef(null);
   const timerRef = useRef(null);
   const noteRef = useRef(0);
