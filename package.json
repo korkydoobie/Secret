@@ -1,0 +1,21 @@
+{
+  "name": "joana-black-cat-date",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A playful black-cat-themed date invitation for Joana.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}

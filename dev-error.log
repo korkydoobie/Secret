@@ -1,0 +1,6 @@
+Update available! 12.5.1 → 12.15.0.
+Changelog: https://pnpm.io/v/12.15.0
+To update, run: pnpm self-update
+Already up to date
+Done in 831ms using pnpm v12.5.1
+$ node dev-server.mjs
