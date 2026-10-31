@@ -111,8 +111,9 @@ export default function Home() {
       <main onPointerDown={() => { if (!audioRef.current) setMusic(true); }}>
         <section className="card" aria-labelledby="question">
           <span className="paw pawOne">🐾</span><span className="paw pawTwo">🐾</span>
-          <h1 id="question">Henlo, <span>Joana</span><br />Will you go out on a date with me next week :D</h1>
+          <h1 id="question">Henlo, <span>Joana</span><br />Will you go out on a date with me next week whenever u are free :D</h1>
           <p className="sub">With trixie's blessing</p>
+          <div className="loveDivider" aria-hidden="true"><span />♡<span /></div>
           <div className="cats" aria-hidden="true">
             <div className="catLabel">
               <span>Trixie</span>
