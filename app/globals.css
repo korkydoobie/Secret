@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Gochi+Hand&display=swap');
+.datePicker{display:flex;flex-direction:column;align-items:center;gap:16px;margin:18px auto 22px;max-width:320px}.datePicker label{font:400 28px "Gochi Hand",cursive;color:var(--deep)}.datePicker input{width:100%;min-width:0;min-height:50px;padding:12px 16px;border:2px solid var(--ink);border-radius:14px;background:var(--cream);color:var(--ink);font:400 17px "DM Sans",sans-serif;color-scheme:light}.datePicker input:focus-visible{outline:3px solid #94652c;outline-offset:4px}
 html,body{overflow-x:hidden!important}body{overflow-y:auto!important}
 button:disabled{cursor:wait;opacity:.72}.saveError{margin:-7px 0 5px;color:#9d2338;font-size:13px;font-weight:700}
 .collar{position:absolute;left:8px;right:8px;bottom:19px;height:11px;border-radius:8px;background:#d52d3f;border:2px solid #791624;box-shadow:0 2px 0 rgba(0,0,0,.22);z-index:2}.collar i{position:absolute;width:14px;height:14px;border-radius:50%;background:#f3c96b;border:2px solid #79591b;left:50%;top:5px;transform:translateX(-50%)}

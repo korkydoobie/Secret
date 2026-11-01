@@ -14,10 +14,10 @@ On Windows PowerShell, use `pnpm.cmd install` and `pnpm.cmd dev` if script execu
 ## Configure Supabase
 
 1. Open the Supabase project’s SQL Editor.
-2. Run `supabase/setup.sql` once.
+2. Run `supabase/setup.sql`. Rerun it for existing projects to add the outing date column and update the insert policy.
 3. Put the project URL and publishable key in `.env.local`.
 
-Every confirmed **Yes** is inserted into the `date_responses` table. View results in Supabase’s Table Editor. Public visitors can insert a Yes but cannot read, edit, or delete responses.
+Clicking **Yes** opens a date picker. **Save our date** inserts the answer and chosen date (`outing_date`) together into `date_responses`. Past dates are rejected using Singapore time. View results in Supabase’s Table Editor. Public visitors can insert responses but cannot read, edit, or delete them. Older responses keep an empty outing date.
 
 ## GitHub Pages
 
